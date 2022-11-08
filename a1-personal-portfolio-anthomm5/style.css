@@ -1,0 +1,41 @@
+.me {
+    height: 350px !important;
+    width: 350px !important;
+    border-radius: 1rem;
+}
+
+.content {
+    font-family: "Maven Pro", sans-serif, Times;
+    color: #173F5F;
+}
+
+h1{
+    font-size: 40px;
+    font-family: "Maven Pro", sans-serif, Times;
+    color: #173F5F;
+  }
+
+h2{
+    font-family: "Maven Pro", sans-serif, Times;
+    color: #3D2500;
+  }
+
+h3{
+    font-family: "Maven Pro", sans-serif, Times;
+    color: #3D2500;
+  }
+
+a {
+    color: #3271A1;
+}
+
+/* {background-color: #E6CCA7}*/
+
+.tab { margin-left: 35%; }
+
+.img-responsive {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 35%;
+    width: 35%;
+ }
