@@ -40,7 +40,6 @@ a {
     width: 35%;
  }
 
- .btn-outline-primary {
+ .nav-pills {
   color: #023020 !important;
-  outline-color: #023020 !important;
  }
