@@ -40,6 +40,7 @@ a {
     width: 35%;
  }
 
- .nav-item {
+ .btn-outline-primary {
   color: #023020 !important;
+  outline-color: #023020 !important;
  }
