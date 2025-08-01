@@ -26,27 +26,15 @@ EMAIL: anthomm5@uci.edu
     <a href="mailto:anthomm5@uci.edu" class="btn btn-outline-primary mt-3">anthomm5@uci.edu</a>
   </div>
 
-  <div class="container">
-    <nav>
-      <ul class="nav nav-pills content my-3">
-        <li class="nav-item active" >
-          <a href="#home" class="nav-link active">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">Follow Me</a>
-        </li>
-        <li class="nav-item">
-          <a href="/anthomm5/MyExperiencePage.html" class="nav-link">My Experience</a>
-        </li>
-        <li class="nav-item">
-          <a href="/anthomm5/MyResume.html" class="nav-link">My Resume</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  <div class="container" id="navigation_tabs"></div>
+
+  <script>
+    fetch('NavTabs.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navigation_tabs').innerHTML = data;
+      });
+  </script>
 
   <div class="contaniner text-center mb-5">
     <img class="me" src="Photos/Profile.jpeg" alt="Black and white portrait photo of Portfolio owner.">
