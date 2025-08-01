@@ -32,7 +32,12 @@ EMAIL: anthomm5@uci.edu
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navigation_tabs').innerHTML = data;
-            });
+            })
+            .then(
+                document.getElementById('navigation_tabs')
+                .getElementById('resume_tab')
+                .className += 'active'
+            );
         </script>
       </div>
 
