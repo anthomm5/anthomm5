@@ -33,10 +33,15 @@ EMAIL: anthomm5@uci.edu
             .then(data => {
                 document.getElementById('navigation_tabs').innerHTML = data;
                 
-                const resumeTab = document.getElementById('home-tab');
-                if (resumeTab) {
-                  resumeTab.classList.add('active');
-                }
+                const currentPath = window.location.pathname;
+                document.querySelectorAll('#main-nav .nav-link').forEach(link => {
+                  if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                  }
+                });
+
+
             });
         </script>
       </div>
