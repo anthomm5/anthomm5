@@ -41,6 +41,6 @@ a {
     width: 35%;
  }
 
- .nav-pills {
-  color: #023020 !important;
- }
+ .nav-pills .nav-link {
+  margin-right: 10px; /* Adds space between pills */
+}
