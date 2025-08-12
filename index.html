@@ -32,14 +32,15 @@ EMAIL: anthomm5@uci.edu
     fetch('NavTabs.html')
       .then(response => response.text())
       .then(data => {
-        
-
-        const homeTab = document.getElementById('home-tab');
-        if (homeTab) {
-          homeTab.classList.add('active');
-        }
-
         document.getElementById('navigation_tabs').innerHTML = data;
+                
+                const currentPath = window.location.pathname;
+                document.querySelectorAll('#main-nav .nav-link').forEach(link => {
+                  if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
+                  }
+                });
       });
   </script>
 
