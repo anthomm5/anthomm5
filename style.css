@@ -49,3 +49,7 @@ a {
   background-color: #009a3e; /* custom orange-red */
   color: white;              /* make sure text is readable */
 }
+
+.nav-pills .nav-link {
+  color: #009a3e;  /* your custom hex color */
+}
