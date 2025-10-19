@@ -5,24 +5,20 @@
 }
 
 .content {
-  font-family: 'Roboto Mono', monospace !important;
-    color: #173F5F;
+  color: #173F5F;
 }
 
 h1{
     font-size: 40px;
-    font-family: 'Roboto Mono', monospace;
 
     color: #3D2500;
   }
 
 h2{
-  font-family: 'Roboto Mono', monospace;
-    color: #3D2500;
+  color: #3D2500;
   }
 
 h3{
-  font-family: 'Roboto Mono', monospace;
     color: #3D2500;
   }
 
