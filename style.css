@@ -38,3 +38,10 @@ a {
  .nav-pills .nav-link {
   margin-right: 10px; /* Adds space between pills */
 }
+
+img.img-fluid {
+  width: 50%;  /* or smaller */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
