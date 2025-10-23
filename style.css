@@ -40,7 +40,7 @@ a {
 }
 
 img.img-fluid {
-  width: 50%;  /* or smaller */
+  width: 25%;  /* or smaller */
   height: auto;
   display: block;
   margin: 0 auto;
